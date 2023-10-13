@@ -1,3 +1,5 @@
+package threads;
+
 import threads.InteruptableThread;
 
 public class Main {
