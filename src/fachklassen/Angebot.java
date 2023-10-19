@@ -6,8 +6,9 @@ public class Angebot {
     private Lieferer meinLieferer;
     private Bueromaterial meinWerbegeschenk;
 
-    public Angebot() {
-
+    public Angebot(double angebotspreis, int angebotsnr) {
+        this.angebotspreis = angebotspreis;
+        this.angebotsnr = angebotsnr;
     }
 
     public int getAngebotsnr() {

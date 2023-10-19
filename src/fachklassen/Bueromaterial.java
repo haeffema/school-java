@@ -3,9 +3,14 @@ package fachklassen;
 import java.util.ArrayList;
 
 public class Bueromaterial {
-    private ArrayList<Angebot> angebotsliste = new ArrayList<Angebot>();
+    private ArrayList<Angebot> angebotsliste = new ArrayList<>();
     private int bueromaterialnr;
     private String bezeichnung;
+
+    public Bueromaterial(int bueromaterialnr, String bezeichnung) {
+        this.bueromaterialnr = bueromaterialnr;
+        this.bezeichnung = bezeichnung;
+    }
 
     public int getBueromaterialnr() {
         return bueromaterialnr;
