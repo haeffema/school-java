@@ -1,4 +1,4 @@
-package threads;
+package de.mhae03.school.threads;
 
 public class SleepyThread extends Thread {
 

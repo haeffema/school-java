@@ -1,4 +1,4 @@
-package fachklassen;
+package de.mhae03.school.fachklassen;
 
 import java.util.ArrayList;
 

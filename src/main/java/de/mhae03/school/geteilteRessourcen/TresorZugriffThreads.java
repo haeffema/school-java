@@ -1,4 +1,4 @@
-package geteilteRessourcen;
+package de.mhae03.school.geteilteRessourcen;
 
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -14,7 +14,8 @@ public class TresorZugriffThreads extends Thread {
 
     @Override
     public void run() {
-        while (true) {
+        while (!Thread.currentThread()
+                      .isInterrupted()) {
             if (ThreadLocalRandom.current()
                                  .nextDouble() < 0.05) {
                 synchronized (tresor) {

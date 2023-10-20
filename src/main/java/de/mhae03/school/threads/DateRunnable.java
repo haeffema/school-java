@@ -1,4 +1,4 @@
-package threads;
+package de.mhae03.school.threads;
 
 import java.time.LocalDateTime;
 
@@ -13,8 +13,7 @@ public class DateRunnable implements Runnable {
     @Override
     public void run() {
         for (int x = 0; x < 200; x++) {
-            System.out.printf("%d: %s\n", this.id, LocalDateTime.now()
-                                                                .toString());
+            System.out.printf("%d: %s\n", this.id, LocalDateTime.now());
         }
     }
 

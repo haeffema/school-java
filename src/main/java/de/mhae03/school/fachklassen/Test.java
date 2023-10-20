@@ -1,4 +1,4 @@
-package fachklassen;
+package de.mhae03.school.fachklassen;
 
 public class Test {
     public static void main(String[] args) {

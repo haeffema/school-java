@@ -1,4 +1,4 @@
-package geteilteRessourcen;
+package de.mhae03.school.geteilteRessourcen;
 
 public class Tresor {
     private int money = 1000;

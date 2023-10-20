@@ -1,11 +1,11 @@
-package fachklassen;
+package de.mhae03.school.fachklassen;
 
 import java.util.ArrayList;
 
 public class Lieferer {
     private int lieferernr;
     private String lieferername;
-    private ArrayList<Angebot> angebotsliste = new ArrayList<Angebot>();
+    private ArrayList<Angebot> angebotsliste = new ArrayList<>();
 
     public Lieferer(int lieferernr, String lieferername) {
         this.lieferernr = lieferernr;

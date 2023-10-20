@@ -1,4 +1,4 @@
-package geteilteRessourcen;
+package de.mhae03.school.geteilteRessourcen;
 
 public class Main {
     public static void main(String[] args) {
