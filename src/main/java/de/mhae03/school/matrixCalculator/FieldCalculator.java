@@ -1,7 +1,5 @@
 package de.mhae03.school.matrixCalculator;
 
-import java.util.Arrays;
-
 public class FieldCalculator extends Thread {
 
     private final int rowStart;
@@ -26,7 +24,7 @@ public class FieldCalculator extends Thread {
         for (int k = rowStart; k < rowEnd; k++) {
             for (int j = columnStart; j < columnEnd; j++) {
                 for (int i = 0; i < result.length; i++) {
-                    synchronized (result) {
+                    synchronized (result[k]) {
                         result[k][j] += firstMatrix[k][i] * secondMatrix[i][j];
                     }
                 }
